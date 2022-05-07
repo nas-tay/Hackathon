@@ -3,3 +3,19 @@
 @import "./mixins";
 @import "./typography";
 @import "./blocks/wrapper";
+
+.footer {
+    &__list {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        margin: 30px;
+        padding-left: 0;
+    }
+
+    &__item {
+        width: 25px;
+        height: 25px;
+        margin: 0 10px;
+    }
+}

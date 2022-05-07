@@ -14,31 +14,31 @@
   margin: auto;
   max-width: 1600px;
   min-height: 80px;
-  
+
 }
 
 .container__row {
   margin: auto;
 
-  @media screen and (max-width: $smallMobile) {
-    width: 280px;
-  }
+  // @media screen and (max-width: $smallMobile) {
+  //   width: 280px;
+  // }
 
-  @media screen and (min-width: $smallMobile) {
-    width: 460px;
-  }
+  // @media screen and (min-width: $smallMobile) {
+  //   width: 460px;
+  // }
 
-  @media screen and (min-width: $mobile) {
-    width: 620px;
-  }
+  // @media screen and (min-width: $mobile) {
+  //   width: 620px;
+  // }
 
-  @media screen and (min-width: $tablet) {
-    width: 940px;
-  }
+  // @media screen and (min-width: $tablet) {
+  //   width: 940px;
+  // }
 
-  @media screen and (min-width: $desktop) {
-    width: 1160px;
-  }
+  // @media screen and (min-width: $desktop) {
+  //   width: 1160px;
+  // }
 }
 
 body {
