@@ -7,3 +7,17 @@
   flex-direction: column;
   gap: 15px;
 }
+.gallery_card {
+  width: 18rem;
+  img {
+    height: 300px;
+    object-fit: cover;
+  }
+}
+
+.presentation_content {
+  height: auto;
+}
+.presentation {
+  margin-bottom: 30px;
+}
