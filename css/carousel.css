@@ -1,0 +1,9 @@
+.card_carous {
+  background-color: beige;
+  height: 50vh;
+}
+.card_list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
