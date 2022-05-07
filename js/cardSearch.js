@@ -6,6 +6,7 @@ const CardHtml = () => {
 const CardSearch = () => {
   const searchText = document.querySelector("#idCardKey").value;
   const arrCards = document.querySelectorAll(".carousel-item");
+  arrCards.innerHtml = "";
 
   CardHtml();
 };
