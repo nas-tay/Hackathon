@@ -89,6 +89,17 @@ main {
   margin-bottom: 50px;
 }
 
+.card__search {
+  display: flex;
+  gap: 50px;
+}
+
+.wrap_init {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
 .button {
   border: none;
   border-radius: 15px;
