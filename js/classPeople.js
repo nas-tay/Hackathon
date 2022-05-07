@@ -22,7 +22,7 @@ const GenerateJSON = () => {
   arrPeople.push(
     new People(
       "Мария Пономаренко",
-      "/assets/img/photo_2022-05-07_19-19-48 (2).jpg",
+      "https://avatars.mds.yandex.net/i?id=fec0a115c35d08c98e4523a5831a622b_l-5209452-images-thumbs&n=13",
       "Родом из Барнаула, работала журналисткой.",
       "литература, экология, урбанистика "
     )
@@ -30,7 +30,7 @@ const GenerateJSON = () => {
   arrPeople.push(
     new People(
       "Галина Довгополая",
-      "/assets/img/photo_2022-05-07_19-27-00.jpg",
+      "https://avatars.mds.yandex.net/i?id=376699797fdafec61a791c3baf8af7b8_l-5253889-images-thumbs&n=33&w=1000&h=750&q=60",
       "Пенсионерка. В колонии увлеклась вязанием — вяжет детские вещи для дома матери и ребенка.",
       ""
     )
