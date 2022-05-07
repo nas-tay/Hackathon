@@ -20,7 +20,7 @@
 <body>
     <div class="wrapper">
         <header>
-            <div class="px-3 py-2 bg-success text-white">
+            <div class="px-3 py-2 bg-primary text-white">
                 <div class="container">
                     <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
                         <a href="/"
@@ -32,7 +32,7 @@
 
                         <ul class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small">
                             <li>
-                                <a href="#" class="nav-link text-white">
+                                <a href="#project-importance" class="nav-link text-white">
                                     <svg class="bi d-block mx-auto mb-1" width="24" height="24">
                                         <use xlink:href="#about"></use>
 
@@ -41,7 +41,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="#" class="nav-link text-white">
+                                <a href="#help" class="nav-link text-white">
                                     <svg class="bi d-block mx-auto mb-1" width="24" height="24">
                                         <use xlink:href="#help"></use>
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
@@ -54,7 +54,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="#" class="nav-link text-white">
+                                <a href="#rules" class="nav-link text-white">
                                     <svg class="bi d-block mx-auto mb-1" width="24" height="24">
                                         <use xlink:href="#rules"></use>
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
@@ -67,7 +67,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="#" class="nav-link text-white">
+                                <a href="#become-mentor" class="nav-link text-white">
                                     <svg class="bi d-block mx-auto mb-1" width="24" height="24">
                                         <use xlink:href="#mentor"></use>
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
@@ -80,7 +80,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="#" class="nav-link text-white">
+                                <a href="#contact" class="nav-link text-white">
                                     <svg class="bi d-block mx-auto mb-1" width="24" height="24">
                                         <use xlink:href="#contact"></use>
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
@@ -103,11 +103,7 @@
                     </form>
                 </div>
             </div>
-
-        </header>
-        <header class="container container__row_wide">
-            <div></div>
-        </header>
+          </header>
         <main>
             <div class="info">
                 <div class="info_container">
@@ -138,33 +134,6 @@
                 </p>
                 <button class="button"><a href="#">телеграмм-бот</a></button>
             </section>
-            <section id="become-mentor">
-                <h2>Вы обладаете некими профессиональными навыками и хотите ими поделиться? </h2>
-                <p>
-                    Вы можете стать ментором и помочь заключенным освоить новую область,
-                    чтобы после освобождения облегчить для них этап реабилитации.
-                    Заполните форму ниже и наш менеджер с Вами свяжется.
-                </p>
-                <form class="grid">
-                    <div>
-                        <label for="name" class="form-label">Имя:</label>
-                        <input class="form-control" id="name" type="text">
-                    </div>
-                    <div>
-                        <label for="surname" class="form-label">Фамилия</label>
-                        <input class="form-control" id="surname" type="text">
-                    </div>
-                    <div>
-                        <label for="email" class="form-label">Эл.почта</label>
-                        <input class="form-control" id=email type="email">
-                    </div>
-                    <div>
-                        <label for="profession" class="form-label">Ваша профессия:</label>
-                        <input class="form-control" type="text" id="profession">
-                    </div>
-                    <button type="submit" class="button">Отправить</button>
-                </form>
-            </section>
             <div>
                 <input type="text" id="idCardKey">
                 <input type="button" value="Найти по интересам" class="btn" id="idCardFind" />
@@ -174,6 +143,43 @@
 
                 </div>
             </div>
+            <section class="instruction" id="help">
+              <h2 class="instruction__title">Как написать письмо</h2>
+              <ul class="instruction__list">
+                <li class="instruction__item">
+                  <div class="instruction__img">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512"><path d="M256 448c0 17.67-14.33 32-32 32H32c-17.67 0-32-14.33-32-32s14.33-32 32-32h64V123.8L49.75 154.6C35.02 164.5 15.19 160.4 5.375 145.8C-4.422 131.1-.4531 111.2 14.25 101.4l96-64c9.828-6.547 22.45-7.187 32.84-1.594C153.5 41.37 160 52.22 160 64.01v352h64C241.7 416 256 430.3 256 448z"/></svg>
+                  </div>
+                  <p class="instruction__text">
+                    Через электронный сервис ФСИН-письмо. Чтобы отправить письмо, нужно зайти на сайт, найти колонию, где сидит ваш адресат, внести его данные и написать текст письма.</p>
+                </li>
+                <li class="instruction__item">
+                  <div class="instruction__img">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path d="M320 448c0 17.67-14.33 32-32 32H32c-13.08 0-24.83-7.953-29.7-20.09c-4.859-12.12-1.859-26 7.594-35.03l193.6-185.1c31.36-30.17 33.95-80 5.812-113.4c-14.91-17.69-35.86-28.12-58.97-29.38C127.4 95.83 105.3 103.9 88.53 119.9L53.52 151.7c-13.08 11.91-33.33 10.89-45.2-2.172C-3.563 136.5-2.594 116.2 10.48 104.3l34.45-31.3c28.67-27.34 68.39-42.11 108.9-39.88c40.33 2.188 78.39 21.16 104.4 52.03c49.8 59.05 45.2 147.3-10.45 200.8l-136 130H288C305.7 416 320 430.3 320 448z"/></svg>
+                  </div>
+                  <p class="instruction__text">
+                    От руки. Если в СИЗО или колонию нельзя отослать электронное письмо, то можно отправить самостоятельно «Почтой России». Напишете адрес колонии, индекс, ФИО получателя, чтобы вам смогли ответить, оставьте обратный адрес, вложите в письмо марки минимум на 26 рублей, белый лист бумаги и конверт.</p>
+                  </li>
+              </ul>
+            </section>
+
+            <section class="rules" id="rules">
+              <h2 class="rules__title">Что важно знать о письмах?
+              </h2>
+              <ul class="rules__list">
+                <li class="rules__item">
+                  <div class="rules__icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M256 0C114.6 0 0 114.6 0 256s114.6 256 256 256s256-114.6 256-256S397.4 0 256 0zM232 152C232 138.8 242.8 128 256 128s24 10.75 24 24v128c0 13.25-10.75 24-24 24S232 293.3 232 280V152zM256 400c-17.36 0-31.44-14.08-31.44-31.44c0-17.36 14.07-31.44 31.44-31.44s31.44 14.08 31.44 31.44C287.4 385.9 273.4 400 256 400z"/></svg>
+                  </div>
+                  <p class="rules__text">Ваше письмо обязательно прочтет цензор. Не используйте матерные слова, неизвестные аббревиатуры, не пишите на иностранном языке. Цензор закрасит, вырежет какие-то части или вообще не отдаcт письмо, если ему что-то не понравится.</p> 
+                </li>
+                <li class="rules__item">
+                  <div class="rules__icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M256 0C114.6 0 0 114.6 0 256s114.6 256 256 256s256-114.6 256-256S397.4 0 256 0zM232 152C232 138.8 242.8 128 256 128s24 10.75 24 24v128c0 13.25-10.75 24-24 24S232 293.3 232 280V152zM256 400c-17.36 0-31.44-14.08-31.44-31.44c0-17.36 14.07-31.44 31.44-31.44s31.44 14.08 31.44 31.44C287.4 385.9 273.4 400 256 400z"/></svg>
+                  </div>
+                  <p class="rules__text">Лучше не писать об обстоятельствах уголовного дела. Этим можно навредить.</p></li>
+              </ul>
+            </section>
 
             <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-interval="false">
                 <div class="carousel-indicators">
@@ -215,8 +221,36 @@
                 </div>
             </div>
 
+            <section id="become-mentor">
+              <h2>Вы обладаете некими профессиональными навыками и хотите ими поделиться? </h2>
+              <p>
+                  Вы можете стать ментором и помочь заключенным освоить новую область,
+                  чтобы после освобождения облегчить для них этап реабилитации.
+                  Заполните форму ниже и наш менеджер с Вами свяжется.
+              </p>
+              <form class="grid">
+                  <div>
+                      <label for="name" class="form-label">Имя:</label>
+                      <input class="form-control" id="name" type="text">
+                  </div>
+                  <div>
+                      <label for="surname" class="form-label">Фамилия</label>
+                      <input class="form-control" id="surname" type="text">
+                  </div>
+                  <div>
+                      <label for="email" class="form-label">Эл.почта</label>
+                      <input class="form-control" id=email type="email">
+                  </div>
+                  <div>
+                      <label for="profession" class="form-label">Ваша профессия:</label>
+                      <input class="form-control" type="text" id="profession">
+                  </div>
+                  <button type="submit" class="button">Отправить</button>
+              </form>
+          </section>
+
         </main>
-        <footer class="page-footer font-small text-light bg-success">
+        <footer class="page-footer font-small text-light bg-primary" id="contact">
             <nav>
                 <ul class="footer__list">
                     <li class="footer__item"><a class="footer__link footer__link_fb" href=""><svg
