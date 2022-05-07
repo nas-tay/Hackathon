@@ -129,6 +129,7 @@ a:active {
   margin: auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  min-height: 90vh;
 
   .info_content {
     align-self: center;
