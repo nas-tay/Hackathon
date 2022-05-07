@@ -37,6 +37,35 @@ main {
           flex: 1 0 auto;
 }
 
+.button {
+  border: none;
+  border-radius: 15px;
+  background-color: cornflowerblue;
+  color: white;
+  width: 200px;
+  height: 30px;
+  margin-top: 10px;
+}
+
+.grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (300px)[2];
+      grid-template-columns: repeat(2, 300px);
+  -ms-grid-rows: (80px)[2];
+      grid-template-rows: repeat(2, 80px);
+  -webkit-column-gap: 10px;
+          column-gap: 10px;
+}
+
+a,
+a:link,
+a:visited,
+a:active {
+  text-decoration: none;
+  color: white;
+}
+
 .footer__list {
   list-style: none;
   display: -webkit-box;
