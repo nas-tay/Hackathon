@@ -7,10 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/main.css" />
-    <<<<<<< HEAD=======<link rel="stylesheet" href="css/wrapp.css" />
-    <link rel="stylesheet" href="css/normalize.css" />
-    <link rel="stylesheet" href="css/main.css" />
-    >>>>>>> 3c47fe7a24112e5654f8ed4886ba62c787eb9975
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
@@ -106,11 +103,177 @@
             </div>
         </header>
         <main>
-            <section id="project-importance" class="presentation_container">
-                <h2>Важность инициативы</h2>
-                <button class="button"><a href="#">Наш чат-бот</a></button>
+            <div class="info">
+                <div class="info_container">
+                    <div class="info_content">
+                        <div class="info_title title_big">
+                            Напишите письмо заключенным женщинам!
+                        </div>
+                        <div class="info_text text">
+                            Ваши письма помогают женщинам, находящимся в местах лишения свободы не терять
+                            связи с
+                            реальностью и веры в будущее.
+                        </div>
+                        <button class="btn btn-primary">Написать письмо</button>
+                    </div>
+                    <div class="info_content_pic">
+                        <img class="info_pic" src="assets/images/10176.jpg" alt="">
+                    </div>
+                </div>
+
+            </div>
+
+
+
+
+
+
+
+            <div class="container__row_wide">
+                <section id="project-importance " class="presentation">
+                    <h2>Важность инициативы</h2>
+                    <p>
+                        Писать письма — важно. Основные цели проекта — создание механизмов для бескорыстной
+                        помощи женщинам,
+                        находящимся в местах лишения свободы или оказавшимся в трудных жизненных
+                        обстоятельствах.
+                        Мы уверены, что любой лишенный свободы человек, помимо получаемого наказания, достоин
+                        сострадания
+                        и помощи, а не ненависти или равнодушия. Если вы решили написать заключенной, но не
+                        знаете как и о
+                        чем, то вы может ознакомится с подробными рекомендациями в телеграмм-боте.
+                    </p>
+                    <button class="btn btn-primary"><a href="#">телеграмм-бот</a></button>
+                </section>
+                <div class="presentation">
+
+
+                    <div class="presentation_content presentation">
+                        <div class="presentation_title title">Кому написать</div>
+                        <div class="presentation">
+                            <input type="text" id="idCardKey">
+                            <input type="button" class="btn btn-primary" value="Найти по интересам" class="btn"
+                                id="idCardFind" />
+                            <input type="button" class="btn btn-primary" value="Случайный человек" class="btn"
+                                id="idCardRnd" />
+
+
+                        </div>
+                        <div class="card_list  ">
+                        </div>
+                    </div>
+                    <div class=" presentation_content gallery">
+                        <div class="card gallery_card" style="width: 18rem;">
+                            <img class="card-img-top" src="/assets/img/photo_2022-05-07_19-19-48.jpg"
+                                alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Саша Скочиленко</h5>
+                                <p class="card-text">Жила в Санкт-Петербурге, занималась иллюстрацией.
+                                    Интересуется музыкой, социологией.
+                                </p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                        <div class="card gallery_card" style="width: 18rem;">
+                            <img class="card-img-top" src="/assets/img/photo_2022-05-07_19-19-48 (2).jpg"
+                                alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Мария Пономаренко </h5>
+                                <p class="card-text">Родом из Барнаула, работала журналисткой. Интересуется
+                                    литературой,
+                                    экологией, урбанистикой.
+                                </p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                        <div class="card gallery_card" style="width: 18rem;">
+                            <img class="card-img-top" src="/assets/img/photo_2022-05-07_19-27-00.jpg"
+                                alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Галина Довгополая</h5>
+                                <p class="card-text">Пенсионерка. В колонии увлеклась вязанием — вяжет
+                                    детские вещи для
+                                    дома
+                                    матери и ребенка.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <section class="instruction" id="help">
+                <h2 class="instruction__title">Как написать письмо</h2>
+                <ul class="instruction__list">
+                    <li class="instruction__item">
+                        <div class="instruction__img">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512">
+                                <path
+                                    d="M256 448c0 17.67-14.33 32-32 32H32c-17.67 0-32-14.33-32-32s14.33-32 32-32h64V123.8L49.75 154.6C35.02 164.5 15.19 160.4 5.375 145.8C-4.422 131.1-.4531 111.2 14.25 101.4l96-64c9.828-6.547 22.45-7.187 32.84-1.594C153.5 41.37 160 52.22 160 64.01v352h64C241.7 416 256 430.3 256 448z" />
+                            </svg>
+                        </div>
+                        <p class="instruction__text">
+                            Через электронный сервис ФСИН-письмо. Чтобы отправить письмо, нужно зайти на
+                            сайт, найти колонию, где сидит ваш адресат, внести его данные и написать текст
+                            письма.</p>
+                    </li>
+                    <li class="instruction__item">
+                        <div class="instruction__img">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                                <path
+                                    d="M320 448c0 17.67-14.33 32-32 32H32c-13.08 0-24.83-7.953-29.7-20.09c-4.859-12.12-1.859-26 7.594-35.03l193.6-185.1c31.36-30.17 33.95-80 5.812-113.4c-14.91-17.69-35.86-28.12-58.97-29.38C127.4 95.83 105.3 103.9 88.53 119.9L53.52 151.7c-13.08 11.91-33.33 10.89-45.2-2.172C-3.563 136.5-2.594 116.2 10.48 104.3l34.45-31.3c28.67-27.34 68.39-42.11 108.9-39.88c40.33 2.188 78.39 21.16 104.4 52.03c49.8 59.05 45.2 147.3-10.45 200.8l-136 130H288C305.7 416 320 430.3 320 448z" />
+                            </svg>
+                        </div>
+                        <p class="instruction__text">
+                            От руки. Если в СИЗО или колонию нельзя отослать электронное письмо, то можно
+                            отправить самостоятельно «Почтой России». Напишете адрес колонии, индекс, ФИО
+                            получателя, чтобы вам смогли ответить, оставьте обратный адрес, вложите в письмо
+                            марки минимум на 26 рублей, белый лист бумаги и конверт.</p>
+                    </li>
+                </ul>
             </section>
-            <section id="become-mentor " class="presentation_container">
+
+            <section class="rules" id="rules">
+                <h2 class="rules__title">Что важно знать о письмах?
+                </h2>
+                <ul class="rules__list">
+                    <li class="rules__item">
+                        <div class="rules__icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                <path
+                                    d="M256 0C114.6 0 0 114.6 0 256s114.6 256 256 256s256-114.6 256-256S397.4 0 256 0zM232 152C232 138.8 242.8 128 256 128s24 10.75 24 24v128c0 13.25-10.75 24-24 24S232 293.3 232 280V152zM256 400c-17.36 0-31.44-14.08-31.44-31.44c0-17.36 14.07-31.44 31.44-31.44s31.44 14.08 31.44 31.44C287.4 385.9 273.4 400 256 400z" />
+                            </svg>
+                        </div>
+                        <p class="rules__text">Ваше письмо обязательно прочтет цензор. Не используйте
+                            матерные слова, неизвестные аббревиатуры, не пишите на иностранном языке. Цензор
+                            закрасит, вырежет какие-то части или вообще не отдаcт письмо, если ему что-то не
+                            понравится.</p>
+                    </li>
+                    <li class="rules__item">
+                        <div class="rules__icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                <path
+                                    d="M256 0C114.6 0 0 114.6 0 256s114.6 256 256 256s256-114.6 256-256S397.4 0 256 0zM232 152C232 138.8 242.8 128 256 128s24 10.75 24 24v128c0 13.25-10.75 24-24 24S232 293.3 232 280V152zM256 400c-17.36 0-31.44-14.08-31.44-31.44c0-17.36 14.07-31.44 31.44-31.44s31.44 14.08 31.44 31.44C287.4 385.9 273.4 400 256 400z" />
+                            </svg>
+                        </div>
+                        <p class="rules__text">Лучше не писать об обстоятельствах уголовного дела. Этим
+                            можно навредить.</p>
+                    </li>
+                </ul>
+            </section>
+
+
+
+            <section id="become-mentor" class="container__row_wide">
+                <h2>Вы обладаете некими профессиональными навыками и хотите ими поделиться? </h2>
+                <p>
+                    Вы можете стать ментором и помочь заключенным освоить новую область,
+                    чтобы после освобождения облегчить для них этап реабилитации.
+                    Заполните форму ниже и наш менеджер с Вами свяжется.
+                </p>
                 <form class="grid">
                     <div>
                         <label for="name" class="form-label">Имя:</label>
@@ -123,230 +286,14 @@
                     <div>
                         <label for="email" class="form-label">Эл.почта</label>
                         <input class="form-control" id=email type="email">
-                        <div class="info">
-                            <div class="info_container">
-                                <div class="info_content">
-                                    <div class="info_title title_big">
-                                        Напишите письмо заключенным женщинам!
-                                    </div>
-                                    <div class="info_text text">
-                                        Ваши письма помогают женщинам, находящимся в местах лишения свободы не терять
-                                        связи с
-                                        реальностью и веры в будущее.
-                                    </div>
-                                    <button class="info_button button_1">Написать письмо</button>
-                                </div>
-                                <div class="info_content_pic">
-                                    <img class="info_pic" src="assets/images/10176.jpg" alt="">
-                                </div>
-                            </div>
-                        </div>
-
-                        <section id="project-importance">
-                            <h2>Важность инициативы</h2>
-                            <p>
-                                Писать письма — важно. Основные цели проекта — создание механизмов для бескорыстной
-                                помощи женщинам,
-                                находящимся в местах лишения свободы или оказавшимся в трудных жизненных
-                                обстоятельствах.
-                                Мы уверены, что любой лишенный свободы человек, помимо получаемого наказания, достоин
-                                сострадания
-                                и помощи, а не ненависти или равнодушия. Если вы решили написать заключенной, но не
-                                знаете как и о
-                                чем, то вы может ознакомится с подробными рекомендациями в телеграмм-боте.
-                            </p>
-                            <button class="button"><a href="#">телеграмм-бот</a></button>
-                        </section>
-
-
-                        <div class="presentation">
-                            <div class="presentation_container">
-                                <div class="presentation_content">
-                                    <div class="presentation_title title">Кому написать</div>
-                                    <div class="presentation_text text">информация</div>
-                                    <div class="presentation_buttons">
-                                        <button class="button">кнопка</button>
-                                        <button class="button">кнопкм</button>
-                                    </div>
-                                </div>
-                                <div class="gallery">
-                                    <div class="card gallery_card" style="width: 18rem;">
-                                        <img class="card-img-top" src="/assets/img/photo_2022-05-07_19-19-48.jpg"
-                                            alt="Card image cap">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Саша Скочиленко</h5>
-                                            <p class="card-text">Жила в Санкт-Петербурге, занималась иллюстрацией.
-                                                Интересуется музыкой, социологией.
-                                            </p>
-                                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                                        </div>
-                                    </div>
-                                    <div class="card gallery_card" style="width: 18rem;">
-                                        <img class="card-img-top" src="/assets/img/photo_2022-05-07_19-19-48 (2).jpg"
-                                            alt="Card image cap">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Мария Пономаренко </h5>
-                                            <p class="card-text">Родом из Барнаула, работала журналисткой. Интересуется
-                                                литературой,
-                                                экологией, урбанистикой.
-                                            </p>
-                                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                                        </div>
-                                    </div>
-                                    <div class="card gallery_card" style="width: 18rem;">
-                                        <img class="card-img-top" src="/assets/img/photo_2022-05-07_19-27-00.jpg"
-                                            alt="Card image cap">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Галина Довгополая</h5>
-                                            <p class="card-text">Пенсионерка. В колонии увлеклась вязанием — вяжет
-                                                детские вещи для
-                                                дома
-                                                матери и ребенка.</p>
-                                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-
-                        <div>
-                            <input type="text" id="idCardKey">
-                            <input type="button" value="Найти по интересам" class="btn" id="idCardFind" />
-                            <input type="button" value="Случайный человек" class="btn" id="idCardRnd" />
-
-                            <div class="card_list ">
-
-                            </div>
-                        </div>
-                        <section class="instruction" id="help">
-                            <h2 class="instruction__title">Как написать письмо</h2>
-                            <ul class="instruction__list">
-                                <li class="instruction__item">
-                                    <div class="instruction__img">
-                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512">
-                                            <path
-                                                d="M256 448c0 17.67-14.33 32-32 32H32c-17.67 0-32-14.33-32-32s14.33-32 32-32h64V123.8L49.75 154.6C35.02 164.5 15.19 160.4 5.375 145.8C-4.422 131.1-.4531 111.2 14.25 101.4l96-64c9.828-6.547 22.45-7.187 32.84-1.594C153.5 41.37 160 52.22 160 64.01v352h64C241.7 416 256 430.3 256 448z" />
-                                            </svg>
-                                    </div>
-                                    <p class="instruction__text">
-                                        Через электронный сервис ФСИН-письмо. Чтобы отправить письмо, нужно зайти на
-                                        сайт, найти колонию, где сидит ваш адресат, внести его данные и написать текст
-                                        письма.</p>
-                                </li>
-                                <li class="instruction__item">
-                                    <div class="instruction__img">
-                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
-                                            <path
-                                                d="M320 448c0 17.67-14.33 32-32 32H32c-13.08 0-24.83-7.953-29.7-20.09c-4.859-12.12-1.859-26 7.594-35.03l193.6-185.1c31.36-30.17 33.95-80 5.812-113.4c-14.91-17.69-35.86-28.12-58.97-29.38C127.4 95.83 105.3 103.9 88.53 119.9L53.52 151.7c-13.08 11.91-33.33 10.89-45.2-2.172C-3.563 136.5-2.594 116.2 10.48 104.3l34.45-31.3c28.67-27.34 68.39-42.11 108.9-39.88c40.33 2.188 78.39 21.16 104.4 52.03c49.8 59.05 45.2 147.3-10.45 200.8l-136 130H288C305.7 416 320 430.3 320 448z" />
-                                            </svg>
-                                    </div>
-                                    <p class="instruction__text">
-                                        От руки. Если в СИЗО или колонию нельзя отослать электронное письмо, то можно
-                                        отправить самостоятельно «Почтой России». Напишете адрес колонии, индекс, ФИО
-                                        получателя, чтобы вам смогли ответить, оставьте обратный адрес, вложите в письмо
-                                        марки минимум на 26 рублей, белый лист бумаги и конверт.</p>
-                                </li>
-                            </ul>
-                        </section>
-
-                        <section class="rules" id="rules">
-                            <h2 class="rules__title">Что важно знать о письмах?
-                            </h2>
-                            <ul class="rules__list">
-                                <li class="rules__item">
-                                    <div class="rules__icon">
-                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-                                            <path
-                                                d="M256 0C114.6 0 0 114.6 0 256s114.6 256 256 256s256-114.6 256-256S397.4 0 256 0zM232 152C232 138.8 242.8 128 256 128s24 10.75 24 24v128c0 13.25-10.75 24-24 24S232 293.3 232 280V152zM256 400c-17.36 0-31.44-14.08-31.44-31.44c0-17.36 14.07-31.44 31.44-31.44s31.44 14.08 31.44 31.44C287.4 385.9 273.4 400 256 400z" />
-                                            </svg>
-                                    </div>
-                                    <p class="rules__text">Ваше письмо обязательно прочтет цензор. Не используйте
-                                        матерные слова, неизвестные аббревиатуры, не пишите на иностранном языке. Цензор
-                                        закрасит, вырежет какие-то части или вообще не отдаcт письмо, если ему что-то не
-                                        понравится.</p>
-                                </li>
-                                <li class="rules__item">
-                                    <div class="rules__icon">
-                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-                                            <path
-                                                d="M256 0C114.6 0 0 114.6 0 256s114.6 256 256 256s256-114.6 256-256S397.4 0 256 0zM232 152C232 138.8 242.8 128 256 128s24 10.75 24 24v128c0 13.25-10.75 24-24 24S232 293.3 232 280V152zM256 400c-17.36 0-31.44-14.08-31.44-31.44c0-17.36 14.07-31.44 31.44-31.44s31.44 14.08 31.44 31.44C287.4 385.9 273.4 400 256 400z" />
-                                            </svg>
-                                    </div>
-                                    <p class="rules__text">Лучше не писать об обстоятельствах уголовного дела. Этим
-                                        можно навредить.</p>
-                                </li>
-                            </ul>
-                        </section>
-
-                        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel"
-                            data-bs-interval="false">
-                            <div class="carousel-indicators">
-                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
-                                    class="active" aria-current="true" aria-label="Slide 1"></button>
-                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                                    aria-label="Slide 2"></button>
-                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-                                    aria-label="Slide 3"></button>
-                            </div>
-                            <div class="carousel-inner">
-                                <div class="carousel-item active">
-                                    <div><span>Книги</span><span>Дети</span>
-                                    </div>
-                                    <div class="d-block w-100 card_carous">
-                                    </div>
-                                </div>
-                                <div class="carousel-item">
-                                    <div><span>Кино</span>
-                                    </div>
-                                    <div class="d-block w-100 card_carous">
-                                    </div>
-                                </div>
-                                <div class="carousel-item">
-
-                                    <div class="d-block w-100 card_carous">
-                                    </div>
-                                </div>
-                                <button class="carousel-control-prev" type="button"
-                                    data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                    <span class="visually-hidden">Previous</span>
-                                </button>
-                                <button class="carousel-control-next" type="button"
-                                    data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                    <span class="visually-hidden">Next</span>
-                                </button>
-                            </div>
-                        </div>
-
-                        <section id="become-mentor">
-                            <h2>Вы обладаете некими профессиональными навыками и хотите ими поделиться? </h2>
-                            <p>
-                                Вы можете стать ментором и помочь заключенным освоить новую область,
-                                чтобы после освобождения облегчить для них этап реабилитации.
-                                Заполните форму ниже и наш менеджер с Вами свяжется.
-                            </p>
-                            <form class="grid">
-                                <div>
-                                    <label for="name" class="form-label">Имя:</label>
-                                    <input class="form-control" id="name" type="text">
-                                </div>
-                                <div>
-                                    <label for="surname" class="form-label">Фамилия</label>
-                                    <input class="form-control" id="surname" type="text">
-                                </div>
-                                <div>
-                                    <label for="email" class="form-label">Эл.почта</label>
-                                    <input class="form-control" id=email type="email">
-                                </div>
-                                <div>
-                                    <label for="profession" class="form-label">Ваша профессия:</label>
-                                    <input class="form-control" type="text" id="profession">
-                                </div>
-                                <button type="submit" class="button">Отправить</button>
-                            </form>
-                        </section>
+                    </div>
+                    <div>
+                        <label for="profession" class="form-label">Ваша профессия:</label>
+                        <input class="form-control" type="text" id="profession">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Отправить</button>
+                </form>
+            </section>
 
         </main>
         <footer class="page-footer font-small text-light bg-primary" id="contact">

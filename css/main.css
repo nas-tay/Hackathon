@@ -9,8 +9,8 @@
 }
 
 .container__row_wide {
-  width: 95%;
-  margin: auto;
+  width: 90vw;
+  margin: 90px auto;
   max-width: 1600px;
   min-height: 80px;
 }
@@ -79,6 +79,14 @@ main {
 .gallery_card img {
   height: 300px;
   object-fit: cover;
+}
+
+.presentation_content {
+  height: auto;
+}
+
+.presentation {
+  margin-bottom: 30px;
 }
 
 .button {
