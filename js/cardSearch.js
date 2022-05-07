@@ -1,8 +1,21 @@
 arr = GenerateJSON();
 const CardHtml = (people) => {
-  const list = document.querySelector(".card_list");
+  const card = createElemDOM("div", "card gallery_card");
+  const img = createElemDOM("img", "card-img-top");
+  img.src = people.photo;
+  img.alt = "Card image cap";
+  card.appendChild(img);
+  const body = createElemDOM("div", "card-body");
+  card.appendChild(body);
 
-  return createElemDOM("div", "d-block w-100 card_carous", people.name);
+  const h5 = createElemDOM("h5", "card-title", people.name);
+  body.appendChild(h5);
+
+  const p = createElemDOM("p", "card-text", people.about);
+  body.appendChild(p);
+  const a = createElemDOM("a", "btn btn-primary", "Пообщаться");
+  body.appendChild(a);
+  return card;
 };
 
 const CardSearch = () => {

@@ -72,6 +72,15 @@ main {
   gap: 15px;
 }
 
+.gallery_card {
+  width: 18rem;
+}
+
+.gallery_card img {
+  height: 300px;
+  object-fit: cover;
+}
+
 .button {
   border: none;
   border-radius: 15px;
