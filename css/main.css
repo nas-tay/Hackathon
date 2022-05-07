@@ -86,7 +86,7 @@ main {
 }
 
 .presentation {
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 
 .button {
@@ -208,6 +208,7 @@ a:active {
   margin: auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  min-height: 90vh;
 }
 
 .info_container .info_content {
