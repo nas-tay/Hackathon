@@ -124,11 +124,14 @@ a:active {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .instruction__img {
-  width: 30px;
-  height: 30px;
+  width: 20px;
+  height: 20px;
   margin: 30px;
 }
 
@@ -143,6 +146,7 @@ a:active {
       -ms-flex-align: center;
           align-items: center;
   margin-bottom: 0;
+  width: 70vw;
 }
 
 .rules__title {
@@ -155,8 +159,8 @@ a:active {
 }
 
 .rules__icon {
-  width: 20px;
-  height: 20px;
+  width: 30px;
+  height: 30px;
   margin: 30px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -171,19 +175,20 @@ a:active {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .rules__text {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   margin-bottom: 0;
+  width: 70vw;
 }
 
 .footer__list {

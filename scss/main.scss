@@ -41,11 +41,12 @@ a:active {
 
     &__item {
         display: flex;
+        justify-content: center;
     }
 
     &__img {
-        width: 30px;
-        height: 30px;
+        width: 20px;
+        height: 20px;
         margin: 30px;
     }
 
@@ -54,6 +55,7 @@ a:active {
         justify-content: center;
         align-items: center;
         margin-bottom: 0;
+        width: 70vw;
     }
 }
 
@@ -68,8 +70,8 @@ a:active {
     }
 
     &__icon {
-        width: 20px;
-        height: 20px;
+        width: 30px;
+        height: 30px;
         margin: 30px;
         justify-content: center;
         align-items: center;
@@ -78,13 +80,14 @@ a:active {
     &__item {
         margin: 30px 0;
         display: flex;
+        justify-content: center;
     }
 
     &__text {
         display: flex;
-        justify-content: center;
         align-items: center;
         margin-bottom: 0;
+        width: 70vw;
     }
 }
 
