@@ -1,19 +1,7 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
 .wrapper {
   min-height: 100%;
   display: flex;
   flex-direction: column;
-=======
-.wrapper {
-  min-height: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-direction: column;
-      flex-direction: column;
-  -webkit-box-orient: vertical;
->>>>>>> ee7dc997675809e05f694875ae32e4cc5f2321c7
 }
 
 .container {
@@ -31,7 +19,6 @@
   margin: auto;
 }
 
-<<<<<<< HEAD
 @media screen and (max-width: 479px) {
   .container__row {
     width: 280px;
@@ -62,8 +49,6 @@
   }
 }
 
-=======
->>>>>>> ee7dc997675809e05f694875ae32e4cc5f2321c7
 body {
   height: 100%;
 }
@@ -73,7 +58,6 @@ html {
 }
 
 main {
-<<<<<<< HEAD
   flex: 1 0 auto;
 }
 
@@ -87,35 +71,6 @@ main {
   flex-direction: column;
   gap: 15px;
 }
-/*# sourceMappingURL=main.css.map */
-=======
-.button{
-    border: none;
-    border-radius: 15px;
-    background-color: cornflowerblue;
-    color: white;
-    width: 200px;
-    height: 30px;
-    margin-top: 10px;
-}
-
-.grid{
-    display: grid;
-    grid-template-columns: repeat(2, 300px);
-    grid-template-rows: repeat(2, 80px);
-    column-gap: 10px;
-}
-
-a, a:link, a:visited, a:active{
-    text-decoration: none;
-    color: white;
-}
->>>>>>> cbcadde18f6c49ce1c70b543932e07fee21842cd
-=======
-  -webkit-box-flex: 1;
-      -ms-flex: 1 0 auto;
-          flex: 1 0 auto;
-}
 
 .button {
   border: none;
@@ -128,14 +83,10 @@ a, a:link, a:visited, a:active{
 }
 
 .grid {
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (300px)[2];
-      grid-template-columns: repeat(2, 300px);
-  -ms-grid-rows: (80px)[2];
-      grid-template-rows: repeat(2, 80px);
-  -webkit-column-gap: 10px;
-          column-gap: 10px;
+  grid-template-columns: repeat(2, 300px);
+  grid-template-rows: repeat(2, 80px);
+  column-gap: 10px;
 }
 
 a,
@@ -148,12 +99,8 @@ a:active {
 
 .footer__list {
   list-style: none;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
   margin: 30px;
   padding-left: 0;
 }
@@ -164,4 +111,3 @@ a:active {
   margin: 0 10px;
 }
 /*# sourceMappingURL=main.css.map */
->>>>>>> ee7dc997675809e05f694875ae32e4cc5f2321c7
