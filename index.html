@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
     <meta charset="UTF-8">
@@ -19,7 +19,31 @@
 
         </header>
         <main>
-
+            <section id="project-importance">
+                <h2>Важность инициативы</h2>
+                <button class="button"><a href="#">Наш чат-бот</a></button>
+            </section>
+            <section id="become-mentor">
+                <form class="grid">
+                    <div>
+                        <label for="name" class="form-label">Имя:</label>
+                        <input class="form-control" id="name" type="text">
+                    </div>
+                    <div>
+                        <label for="surname" class="form-label">Фамилия</label>
+                        <input class="form-control" id="surname" type="text">
+                    </div>
+                    <div>
+                        <label for="email" class="form-label">Эл.почта</label>
+                        <input class="form-control" id=email type="email">
+                    </div>
+                    <div>
+                        <label for="profession" class="form-label">Ваша профессия:</label>
+                        <input class="form-control" type="text" id="profession">
+                    </div>
+                    <button type="submit" class="button">Отправить</button>
+                </form>
+            </section>
             <div>
                 <input type="text" id="idCardKey">
                 <input type="button" value="Найти по интересам" class="btn" id="idCardFind" />
@@ -80,6 +104,8 @@
     </script>
     <script src="/js/createElement.js"></script>
     <script src="/js/cardSearch.js"></script>
+
+
 </body>
 
 </html>
