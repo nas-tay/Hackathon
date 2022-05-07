@@ -51,4 +51,44 @@
 
 .button:hover {
     background-color: rgb(125, 125, 252);
-}
+
+    .button {
+        border: none;
+        border-radius: 15px;
+        background-color: cornflowerblue;
+        color: white;
+        width: 200px;
+        height: 30px;
+        margin-top: 10px;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(2, 300px);
+        grid-template-rows: repeat(2, 80px);
+        column-gap: 10px;
+    }
+
+    a,
+    a:link,
+    a:visited,
+    a:active {
+        text-decoration: none;
+        color: white;
+    }
+
+    .footer {
+        &__list {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            margin: 30px;
+            padding-left: 0;
+        }
+
+        &__item {
+            width: 25px;
+            height: 25px;
+            margin: 0 10px;
+        }
+    }
