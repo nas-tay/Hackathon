@@ -45,3 +45,21 @@ a:active {
     margin: 0 10px;
   }
 }
+
+.presentation_container {
+  width: 90vw;
+  margin: auto;
+  display: grid;
+  grid-template-rows: 20% 80%;
+  gap: 20px;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.title {
+  font-size: 2em;
+  font-weight: 700;
+}
