@@ -106,6 +106,63 @@ a:active {
   color: white;
 }
 
+.instruction__title {
+  text-align: center;
+}
+
+.instruction__list {
+  padding-left: 0;
+}
+
+.instruction__item {
+  display: flex;
+  justify-content: center;
+}
+
+.instruction__img {
+  width: 20px;
+  height: 20px;
+  margin: 30px;
+}
+
+.instruction__text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0;
+  width: 70vw;
+}
+
+.rules__title {
+  text-align: center;
+}
+
+.rules__list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.rules__icon {
+  width: 30px;
+  height: 30px;
+  margin: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.rules__item {
+  margin: 30px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.rules__text {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0;
+  width: 70vw;
+}
+
 .footer__list {
   list-style: none;
   display: flex;
@@ -136,5 +193,94 @@ a:active {
 .title {
   font-size: 2em;
   font-weight: 700;
+}
+
+.info_container {
+  width: 90vw;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.info_container .info_content {
+  align-self: center;
+}
+
+.info_container .info_pic {
+  width: 100%;
+}
+
+.info_container .info_title {
+  margin-bottom: 20px;
+}
+
+.info_container .info_text {
+  margin-bottom: 20px;
+}
+
+.title_big {
+  font-size: 3.5em;
+  font-weight: 700;
+  line-height: 1.05;
+}
+
+.text {
+  font-size: 1.5em;
+  font-weight: 300;
+}
+
+.button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  font-size: 1em;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  color: #ffffff;
+  background-color: blue;
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+}
+
+.button:hover {
+  background-color: #7d7dfc;
+}
+
+.button {
+  border: none;
+  border-radius: 15px;
+  background-color: cornflowerblue;
+  color: white;
+  width: 200px;
+  height: 30px;
+  margin-top: 10px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 300px);
+  grid-template-rows: repeat(2, 80px);
+  column-gap: 10px;
+}
+
+a,
+a:link,
+a:visited,
+a:active {
+  text-decoration: none;
+  color: white;
+}
+
+.footer__list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+  padding-left: 0;
+}
+
+.footer__item {
+  width: 25px;
+  height: 25px;
+  margin: 0 10px;
 }
 /*# sourceMappingURL=main.css.map */
