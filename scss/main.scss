@@ -3,6 +3,8 @@
 @import "./mixins";
 @import "./typography";
 @import "./blocks/wrapper";
+@import "./blocks/carousel";
+
 
 .info_container {
     width: 90vw;
@@ -93,3 +95,4 @@
             margin: 0 10px;
         }
     }
+

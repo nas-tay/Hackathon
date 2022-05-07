@@ -1,3 +1,4 @@
+
 /* No CSS */
 /*# sourceMappingURL=main.css.map */
 .info_container {
@@ -58,7 +59,7 @@
     display: flex;
     -ms-flex-direction: column;
     flex-direction: column;
-    -webkit-box-orient: vertical;
+    -webkit-box-orient: vertical
 }
 
 .container {
@@ -76,6 +77,37 @@
     margin: auto;
 }
 
+@media screen and (max-width: 479px) {
+  .container__row {
+    width: 280px;
+  }
+}
+
+@media screen and (min-width: 479px) {
+  .container__row {
+    width: 460px;
+  }
+}
+
+@media screen and (min-width: 639px) {
+  .container__row {
+    width: 620px;
+  }
+}
+
+@media screen and (min-width: 959px) {
+  .container__row {
+    width: 940px;
+  }
+}
+
+@media screen and (min-width: 1199px) {
+  .container__row {
+    width: 1160px;
+  }
+}
+
+
 body {
     height: 100%;
 }
@@ -85,9 +117,50 @@ html {
 }
 
 main {
+
     -webkit-box-flex: 1;
     -ms-flex: 1 0 auto;
-    flex: 1 0 auto;
+  flex: 1 0 auto;
+}
+
+.card_carous {
+  background-color: beige;
+  height: 50vh;
+}
+
+.card_list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+/*# sourceMappingURL=main.css.map */
+
+.button{
+    border: none;
+    border-radius: 15px;
+    background-color: cornflowerblue;
+    color: white;
+    width: 200px;
+    height: 30px;
+    margin-top: 10px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2, 300px);
+    grid-template-rows: repeat(2, 80px);
+    column-gap: 10px;
+}
+
+a, a:link, a:visited, a:active{
+    text-decoration: none;
+    color: white;
+}
+
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 auto;
+          flex: 1 0 auto;
+
 }
 
 .button {
@@ -138,3 +211,4 @@ a:active {
 }
 
 /*# sourceMappingURL=main.css.map */
+
