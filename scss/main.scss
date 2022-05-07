@@ -3,3 +3,52 @@
 @import "./mixins";
 @import "./typography";
 @import "./blocks/wrapper";
+
+.info_container {
+    width: 90vw;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    .info_content {
+        align-self: center;
+    }
+
+    .info_pic {
+        width: 100%;
+    }
+
+    .info_title {
+        margin-bottom: 10px;
+    }
+
+    .info_text {
+        margin-bottom: 20px;
+    }
+}
+
+.title {
+    font-size: 3.5em;
+    font-weight: 700;
+}
+
+.text {
+    font-size: 1.5em;
+    font-weight: 300;
+}
+
+.button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1em;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    color: #ffffff;
+    background-color: blue;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out
+}
+
+.button:hover {
+    background-color: rgb(125, 125, 252);
+}
