@@ -3,6 +3,7 @@
 @import "./mixins";
 @import "./typography";
 @import "./blocks/wrapper";
+@import "./blocks/carousel";
 
 .button {
     border: none;
@@ -27,6 +28,64 @@ a:visited,
 a:active {
     text-decoration: none;
     color: white;
+}
+
+.instruction {
+    &__title {
+        text-align: center;
+    }
+
+    &__list {
+        padding-left: 0;
+    }
+
+    &__item {
+        display: flex;
+    }
+
+    &__img {
+        width: 30px;
+        height: 30px;
+        margin: 30px;
+    }
+
+    &__text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 0;
+    }
+}
+
+.rules {
+    &__title {
+        text-align: center;
+    }
+
+    &__list {
+        list-style: none;
+        padding-left: 0;
+    }
+
+    &__icon {
+        width: 20px;
+        height: 20px;
+        margin: 30px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__item {
+        margin: 30px 0;
+        display: flex;
+    }
+
+    &__text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 0;
+    }
 }
 
 .footer {
